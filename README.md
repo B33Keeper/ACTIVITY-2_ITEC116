@@ -1,7 +1,7 @@
 # Blog API (NestJS + React)
 
 A simple blog application with authentication, posts, and comments.  
-Backend powered by **NestJS + TypeORM (MySQL via XAMPP)**, frontend built in **React**.
+Backend powered by **NestJS + TypeORM (MySQL)**, frontend built in **React**.
 
 ---
 
@@ -94,11 +94,11 @@ PostEntity: id, title, content, createdAt
 ## RUNNNING THE PROJECT
 
 #BACK END
-cd "C:\Users\Administrator\Desktop\REACT JS APP\act 5 backend"
+cd "server"
 RUN THIS ON THE CONSOLE: npm run start:dev
 
 #FRONT END
-cd "C:\Users\Administrator\Desktop\REACT JS APP\activity5"
+cd "client"
 npm start
 
 
